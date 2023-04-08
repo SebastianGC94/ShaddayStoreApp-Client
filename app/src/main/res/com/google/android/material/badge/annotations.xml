@@ -1,0 +1,8 @@
+<root>
+    <item
+        name='com.google.android.material.badge.BadgeUtils void attachBadgeDrawable(com.google.android.material.badge.BadgeDrawable, androidx.appcompat.widget.Toolbar, int)'>
+        <annotation name='org.jetbrains.annotations.Contract'>
+            <val name="pure" val="true" />
+        </annotation>
+    </item>
+</root>

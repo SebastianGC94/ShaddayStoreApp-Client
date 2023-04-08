@@ -1,0 +1,179 @@
+<resources>
+    <string name="app_name">Shadday Store</string>
+    <string name="label_correo">Correo electrónico</string>
+    <string name="label_password">Contraseña</string>
+    <string name="label_start_session">Entrar</string>
+    <string name="label_nuevoUser"><u>Registrarme</u></string>
+    <string name="label_recovery_password">Cambiar Contraseña</string>
+    <string name="label_inicioSesion">INICIAR SESIÓN</string>
+    <string name="title_activity_inicio">InicioActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Sebastián García Carmona</string>
+    <string name="nav_header_subtitle">sebasgc.9447@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="bolsa_compras_label">Bolsa de Compras</string>
+    <string name="close_session">Cerrar sesión</string>
+    <string name="option_accesorios">Accesorios</string>
+    <string name="option_compras">Compras</string>
+    <string name="option_configuracion">Configuración</string>
+    <string name="option_bolsos">Bolsos</string>
+    <string name="option_jugueteria">Juguetería</string>
+    <string name="option_lamparas">Lámparas</string>
+    <string name="option_monederos">Monederos</string>
+    <string name="option_papeleria">Papelería</string>
+    <string name="option_termos">Termos</string>
+    <string name="option_toallas">Toallas</string>
+    <string name="option_buscar">Buscar</string>
+
+    <string name="close_setting">Cerrar</string>
+    <string name="error_settings">Se generó un error</string>
+
+
+    <string name="conceder_permiso_label">Gracias por conceder el permiso,por favor oprima nuevamente.</string>
+    <string name="permiso_denegado_label">Permiso denegado, no es posible continuar.</string>
+    <string name="error_crear_carpeta_label">No se creó la carpeta para guardar los archivos, intente nuevamente.</string>
+    <string name="toast_correcto_label">¡Excelente! La sesión ha iniciado de forma exitosa.</string>
+    <string name="toast_incorrecto_label">Lo sentimos, por favor intente nuevamente.</string>
+    <string name="title_subir_foto_perfil">Imagen de perfil</string>
+    <string name="load_foto_perfil">Subir Imagen</string>
+    <string name="change_foto_perfil">Cambiar Imagen</string>
+    <string name="title_datos_usuario">Datos Personales</string>
+    <string name="title_editar_datos_usuario">Editar Datos Personales</string>
+    <string name="title_datos_nueva_contra">Nueva Contraseña</string>
+    <string name="registro_nombre_usuario">Nombre</string>
+    <string name="nuevo_registro_nombre_usuario">Edite su nombre</string>
+    <string name="registro_apellido_usuario">Apellido</string>
+    <string name="nuevo_registro_apellido_usuario">Edite su apellido</string>
+    <string name="registro_tipoDoc_usuario">Tipo de documento</string>
+    <string name="nuevo_registro_tipoDoc_usuario">Edite su tipo de documento</string>
+    <string name="registro_numDoc_usuario">Número de documento</string>
+    <string name="nuevo_registro_numDoc_usuario">Edite su número de documento</string>
+    <string name="registro_departamento_usuario">Departamento</string>
+    <string name="nuevo_registro_departamento_usuario">Edite su departamento</string>
+    <string name="registro_ciudad_usuario">Ciudad</string>
+    <string name="nuevo_registro_ciudad_usuario">Edite su ciudad</string>
+    <string name="registro_sector_usuario">Sector</string>
+    <string name="nuevo_registro_sector_usuario">Edite su sector</string>
+    <string name="registro_telefono_usuario">Teléfono</string>
+    <string name="nuevo_registro_telefono_usuario">Edite su teléfono</string>
+    <string name="registro_direccion_usuario">Dirección</string>
+    <string name="nuevo_registro_direccion_usuario">Edite su dirección</string>
+    <string name="title_login_usuario">Credenciales</string>
+    <string name="nuevo_title_login_usuario">Editar Credenciales</string>
+    <string name="title_recovery_usuario">Validar Correo Electrónico</string>
+    <string name="title_cambiar_contras">Cambiar Contraseña</string>
+    <string name="title_label_correo">Ingrese su correo electrónico</string>
+    <string name="nuevo_title_label_correo">Edite su correo electrónico</string>
+
+    <string name="title_label_contra_nueva">Ingrese su nueva contraseña</string>
+    <string name="title_label_contra_nueva_check">Confirme la contraseña</string>
+    <string name="title_label_contra">Ingrese su contraseña</string>
+    <string name="title_label_nueva_contra">Ingrese su nueva contraseña</string>
+    <string name="title_finalizar_registro_user">Finalizar Registro</string>
+    <string name="title_finalizar_cambio_contra">Actualizar Contraseña</string>
+    <string name="title_validar_correo">Validar</string>
+    <string name="title_finalizar_recuperar_contra">Reestablecer Contraseña</string>
+    <string name="title_detalle_misCompras">Detalle de la compra</string>
+    <string name="title_detalle_producto">Descripción del producto</string>
+    <string name="title_categorias_productos">Categorías</string>
+    <string name="title_listado_productos">Listado de productos</string>
+    <string name="title_bolsa_compras">Bolsa de compras</string>
+    <string name="title_resumen_pedido">Detalle del pedido</string>
+    <string name="title_registrar_usuario">Registrar usuario</string>
+    <string name="title_editar_usuario">Editar usuario</string>
+    <string name="title_cambiar_contra">Cambiar contraseña</string>
+    <string name="title_recuperar_contra">Validar correo</string>
+    <string name="title_finalizar_compra">Finalizar Compra</string>
+    <string name="title_ver_factura">Vista previa</string>
+    <string name="title_lista_categorias_inicio">Categorías</string>
+    <string name="title_productos_recomendados_inicio">Catálogo</string>
+    <string name="title_productos_recomendados_descripcion">Ver descripción</string>
+    <string name="title_name_categoria1">Categoría 1</string>
+    <string name="label_codigo_compra">Código:</string>
+    <string name="label_producto_compra">Producto:</string>
+    <string name="label_cantidad_compra">Cantidad:</string>
+    <string name="label_precio_compra">Precio:</string>
+    <string name="label_fecha_compra">Fecha:</string>
+    <string name="label_monto_compra">Monto:</string>
+    <string name="label_estado_pedido">Estado:</string>
+    <string name="label_descargar_factura">Descargar Factura</string>
+    <string name="label_pedir">Pedir</string>
+    <string name="title_menu_productos">Productos</string>
+    <string name="title_menu_categorias">Categorías</string>
+
+
+    <string name="descripcion_producto">
+        Describe el producto aquí...
+        Describe el producto aquí..
+        Describe el producto aquí..
+        Describe el producto aquí..</string>
+
+    <string name="menu_inicio">Inicio</string>
+    <string name="menu_mis_compras">Mis Compras</string>
+    <string name="menu_editar_perfil">Editar Perfil</string>
+    <string name="menu_productos">Productos</string>
+    <string name="menu_categorias">Categorías</string>
+    <string name="add_shop">AÑADIR AL CARRITO</string>
+    <string name="comprar_p">COMPRAR</string>
+
+    <string-array name="tipoDoc">
+        <item>CC</item>
+        <item>RUC</item>
+        <item>CARNET EXT.</item>
+        <item>PASAPORTE</item>
+    </string-array>
+    <string-array name="departamentos">
+        <item>Amazonas</item>
+        <item>Antioquia</item>
+        <item>Arauca</item>
+        <item>Atlántico</item>
+        <item>Bogotá</item>
+        <item>Bolívar</item>
+        <item>Boyacá</item>
+        <item>Caldas</item>
+        <item>Caquetá</item>
+        <item>Casanare</item>
+        <item>Cauca</item>
+        <item>Cesar</item>
+        <item>Chocó</item>
+        <item>Córdoba</item>
+        <item>Cundinamarca</item>
+        <item>Guainía</item>
+        <item>Guaviare</item>
+        <item>Huila</item>
+        <item>La Guajira</item>
+        <item>Magdalena</item>
+        <item>Meta</item>
+        <item>Nariño</item>
+        <item>Norte de Santander</item>
+        <item>Putumayo</item>
+        <item>Quindío</item>
+        <item>Risaralda</item>
+        <item>San Andrés y Providencia</item>
+        <item>Santander</item>
+        <item>Sucre</item>
+        <item>Tolima</item>
+        <item>Valle del Cauca	</item>
+        <item>Vaupés</item>
+        <item>Vichada</item>
+
+    </string-array>
+    <string-array name="ciudades">
+        <item>Bogotá</item>
+        <item>Medellín</item>
+        <item>Cartagena</item>
+        <item>Cali</item>
+        <item>Santa Marta</item>
+        <item>Barranquilla</item>
+        <item>Villavicencio</item>
+        <item>Bucaramanga</item>
+
+    </string-array>
+    <string-array name="sectores">
+        <item>Rural</item>
+        <item>Urbano</item>
+        <item>No aplica</item>
+
+    </string-array>
+</resources>

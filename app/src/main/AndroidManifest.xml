@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.shaddaystore_mobileapp_client">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+
+        android:enableOnBackInvokedCallback="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher2"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ShaddayStoreMobileAppClient.NoActionBar"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="tiramisu">
+
+        <activity
+            android:screenOrientation="portrait"
+
+            android:name=".activity.CambiarContraActivity"
+            android:exported="true" />
+        <activity
+            android:screenOrientation="portrait"
+
+            android:name=".activity.VerInvoiceActivity"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+
+            android:name=".activity.ProductosCarritoActivity"
+            android:exported="true" />
+        <activity
+            android:screenOrientation="portrait"
+
+            android:name=".activity.DetalleProductoActivity"
+            android:exported="true" />
+        <activity
+            android:screenOrientation="portrait"
+
+            android:name=".activity.ui.compras.DetalleMisComprasActivity"
+            android:exported="true" />
+        <activity
+            android:screenOrientation="portrait"
+
+            android:name=".activity.ListarProductosPorCategoriaActivity"
+            android:exported="true" />
+        <!--
+        Para permitir que la aplicación ejecute solicitudes http, ya que por
+        defecto es https
+        -->
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.RegistrarUsuarioActivity" />
+        <activity
+            android:screenOrientation="portrait"
+
+            android:name=".activity.InicioActivity"
+            android:exported="true"
+            android:label="@string/title_activity_inicio"
+            android:theme="@style/Theme.ShaddayStoreMobileAppClient.NoActionBar">
+
+            <!--
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+            -->
+        </activity>
+        <!--
+<activity android:name=".activity.RecuperarContrasenaActivity"/>
+                <activity
+                    android:name=".activity."
+                    android:exported="true"
+                    android:label="@string/title_activity_inicio"
+                    android:theme="@style/Theme.ShaddayStoreMobileAppClient.NoActionBar">
+                </activity>
+        -->
+        <activity
+            android:screenOrientation="portrait"
+
+            android:name=".activity.RecuperarContrasenaActivity"
+            android:exported="true" />
+        <activity
+            android:screenOrientation="portrait"
+
+            android:name=".activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/bolsaCompras"
+        android:icon="@drawable/ic_bolsa_compras"
+        android:iconTint="@color/black"
+        android:title="@string/bolsa_compras_label"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/buscarProducto"
+        android:icon="@drawable/ic_search"
+        android:title="@string/option_buscar"
+        android:iconTint="@color/black"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/ic_more"
+        android:iconTint="@color/white"
+        android:title="Contáctanos"
+        app:showAsAction="always">
+        <menu>
+
+            <item
+                android:id="@+id/cat_compras"
+                android:icon="@drawable/ic_cat_compras"
+                android:title="@string/option_compras" />
+            <item
+                android:id="@+id/cat_configuracion"
+                android:icon="@drawable/ic_cat_configuracion"
+                android:title="@string/option_configuracion" />
+            <item
+                android:id="@+id/cat_accesorios"
+                android:icon="@drawable/ic_cat_accesorios"
+                android:title="@string/option_accesorios" />
+            <item
+                android:id="@+id/cat_bolsos"
+                android:icon="@drawable/ic_cat_bolsos"
+                android:title="@string/option_bolsos" />
+            <item
+                android:id="@+id/cat_jugueteria"
+                android:icon="@drawable/ic_cat_jugueteria"
+                android:title="@string/option_jugueteria" />
+            <item
+                android:id="@+id/cat_lamparas"
+                android:icon="@drawable/ic_cat_lamparas"
+                android:title="@string/option_lamparas" />
+            <item
+                android:id="@+id/cat_monederos"
+                android:icon="@drawable/ic_cat_monedero"
+                android:title="@string/option_monederos" />
+            <item
+                android:id="@+id/cat_papeleria"
+                android:icon="@drawable/ic_cat_papeleria"
+                android:title="@string/option_papeleria" />
+            <item
+                android:id="@+id/cat_termos"
+                android:icon="@drawable/ic_cat_termos"
+                android:title="@string/option_termos" />
+            <item
+                android:id="@+id/cat_toallas"
+                android:icon="@drawable/ic_cat_toallas"
+                android:title="@string/option_toallas" />
+            <item
+                android:id="@+id/cerrarSesion"
+                android:icon="@drawable/ic_salir"
+                android:title="@string/close_session" />
+
+        </menu>
+    </item>
+</menu>
